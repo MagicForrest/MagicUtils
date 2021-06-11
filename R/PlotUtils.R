@@ -13,7 +13,7 @@
 #' @importFrom Cairo Cairo
 #'
 #' @return Nothing, function prints a plot to a file.
-#'
+#' @export
 
 
 magicPlot <- function(p, filename, type = "png", height = NULL, width = NULL, ...){
@@ -106,7 +106,7 @@ getGGAR <- function(p){
 #' @param nlayers Numeric for number of layers (in case only subset a subset of layers in x are plotted)
 #' @param ntimes Numeric for number of time periods (Years and/or Days/Months/Seasons) (in case only subset a subset of
 #' time periods in x are plotted)
-#'
+#' @export
 
 
 nOptCols <- function(x, rows.more.than.cols = 0, type = "Spatial", nlayers, ntimes) {
