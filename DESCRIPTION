@@ -1,0 +1,16 @@
+Package: MagicUtils
+Type: Package
+Title: Handy magic utilities
+Version: 0.1.0
+Author: Matthew Forrest
+Maintainer: Matthew Forrest <matthew.forrest@senckenberg.de>
+Description: For convenient writing of plots to files, and maybe other things.
+Imports:
+    Cairo,
+    ggplot2
+Suggests:
+    DGVMTools
+License: GPL | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
